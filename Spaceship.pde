@@ -11,8 +11,7 @@ class Spaceship extends Floater
     xCorners[2] = -8;
     yCorners[2] = 8;
     xCorners[3] = -2;
-    yCorners[3] = 0;
-    myColor = 255;
+    yCorners[3] = 0;   myColor = 255;
     myCenterX = 200;
     myCenterY = 200;
     myXspeed = 0;
@@ -25,5 +24,14 @@ class Spaceship extends Floater
     myXspeed = 0;
     myYspeed = 0;
     myPointDirection = (int)(Math.random()*300);
-  }//your code here
+  }
+   public double getMyCenterX()
+    {
+      return myCenterX;
+    }
+    
+    public double getMyCenterY()
+    {
+      return myCenterY;
+    }//your code here
 }
